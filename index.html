@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector Game!</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="Assets/CSS/reset.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+
+		<!--Header-->
+		
+		<div id="header">
+		<h1>Crystals Collector!</h1>
+		</div>
+			
+			<!--Body-->
+
+			<div id="instruct">
+				<p>You will be given a random number at the start of the game.</p>
+				<br>
+				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+				<br>
+				<p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+				<br>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<br>
+				<p>Each time when the game starts, the game will change the values of each crystal.</p>
+			</div>
+			<div id="randandscore">
+				<div id="generatednumber">
+					<span id="randomnumber"></span>
+				</div>
+				<div id="winloseboard">
+					<p>
+						<h3><span id="win-counter"></span></h3>
+					</p>
+					<p>
+						<h3><span id="loss-counter"></span></h3>
+					</p>
+				</div>
+			</div>
+			<div id="crystals">
+				<img src="Assets/Images/emerald.png" class="emerald gem" alt="empic" value="emerald">
+				<img src="Assets/Images/diamond.png" class="diamond gem" alt="dipic" value="diamond">
+				<img src="Assets/Images/garnet.png" class="garnet gem" alt="garpic" value="garnet">
+				<img src="Assets/Images/sapphire.png" class="sapphire gem" alt="sappic" value="sapphire">
+			</div>
+			<div id="currentscore">
+				<h1>Your total score is:</h1><span id="currentscorecount"></span>
+			</div>
+	</div>
+
+	<script type="text/javascript" src="Assets/Javascript/game.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,64 @@
+html {
+    background: url(../Images/treasure.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: 'IM Fell DW Pica SC', serif;
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+}
+
+#header {
+	font-size: 80px;
+	text-align: center;
+
+}
+
+#instruct {
+	background-color: #96634b;
+	min-width: auto;
+	max-width: 500px;
+}
+
+#randandscore {
+	background-color: #96634b;
+	min-width: auto;
+	max-width: 500px;
+}
+
+
+#generatednumber {
+	float: left;
+	font-size: 50px;
+	padding-right: 35%;
+
+}
+
+#crystals {
+	float: left;
+	clear: left;
+}
+
+#currentscore {
+	clear: left;
+	background-color: #96634b;
+	min-width: auto;
+	max-width: 500px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.gem {
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.gem:hover {
+	width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+
